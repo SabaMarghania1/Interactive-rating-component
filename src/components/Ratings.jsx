@@ -1,7 +1,7 @@
 export default function Ratings({handleSubmit, handleSelect, selected}) {
   return (
     <>
-      <div className="circle">
+      <div className="circle circle_star">
         <img src="/icon-star.svg" alt="image" />
       </div>
       <div className="texts">
@@ -15,7 +15,7 @@ export default function Ratings({handleSubmit, handleSelect, selected}) {
         {[1, 2, 3, 4, 5].map((item, index) => (
           <li
             onClick={() => handleSelect(item)}
-            className={`flex circle btn ${selected === item ? 'orange' : ''}`}
+            className={`flex circle circle_rating btn ${selected === item ? 'orange' : ''}`}
             key={index}
           >
             {item}

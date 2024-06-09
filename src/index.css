@@ -23,7 +23,14 @@ body {
   width: 40px;
   height: 40px;
   border-radius: 50%;
+}
+
+.circle_star {
   margin-bottom: 16px;
+}
+
+.circle_rating {
+  margin-bottom: 24px;
 }
 
 .container {
@@ -52,9 +59,7 @@ body {
 ul {
   list-style: none;
   display: flex;
-  justify-content: center;
-  gap: 18px;
-  margin-bottom: 10px;
+  justify-content: space-between;
 }
 
 ul li {
@@ -85,10 +90,10 @@ ul li {
   border: none;
   font-size: 14px;
   font-style: normal;
-  font-weight: 700;
+  font-weight: 400;
   line-height: normal;
   letter-spacing: 1.867px;
-  margin-bottom: 10px;
+
   transition: all 0.6s ease;
 }
 
@@ -136,4 +141,53 @@ ul li {
   font-style: normal;
   font-weight: 400;
   line-height: 22px; /* 157.143% */
+}
+@media screen and (min-width: 768px) {
+  .container {
+    width: 412px;
+    padding: 32px;
+    border-radius: 30px;
+    padding-right: 38px;
+  }
+  .circle {
+    font-size: 16px;
+    font-weight: 400;
+  }
+
+  .circle_star {
+    width: 48px;
+    height: 48px;
+    margin-bottom: 30px;
+  }
+  .circle_rating {
+    width: 51px;
+    height: 51px;
+    margin-bottom: 32px;
+  }
+
+  .texts h1 {
+    font-size: 28px;
+  }
+
+  .texts p {
+    font-size: 15px;
+    line-height: 24px;
+  }
+
+  .success .score {
+    color: rgba(252, 118, 20, 0.7);
+    background-color: #262e38;
+    padding: 4px 20px;
+    font-size: 15px;
+    margin-bottom: 32px;
+  }
+
+  .success h2 {
+    font-size: 28px;
+    margin-bottom: 7px;
+  }
+
+  .success p {
+    font-size: 15px;
+  }
 }
