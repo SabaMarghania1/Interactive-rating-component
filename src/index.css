@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #131518;
+  display: flex;
+  min-height: 100vh;
+  align-items: center;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Overpass', sans-serif;
+}
+
+.circle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(38, 46, 56, 1);
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-bottom: 16px;
+}
+
+.container {
+  width: 327px;
+  /* background: radial-gradient(98.96% 98.96% at 50% 0%, #232a34 0%, #181e27 100%); */
+  background-color: rgba(24, 30, 39, 1);
+  margin: 24px 24px 32px 24px;
+  padding: 24px;
+  border-radius: 15px;
+}
+
+.texts h1 {
+  color: #fff;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.texts p {
+  font-size: 14px;
+  color: #969fad;
+  width: 100%;
+  margin-bottom: 24px;
+  line-height: 22px;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 18px;
+  margin-bottom: 10px;
+}
+
+ul li {
+  width: 42px;
+  height: 42px;
+}
+
+.flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #7c8798;
+  font-size: 14px;
+}
+
+.btn:hover {
+  cursor: pointer;
+  background-color: rgba(124, 135, 152, 1);
+  color: white;
+}
+
+.submit {
+  width: 100%;
+  border-radius: 22.5px;
+  background: var(--Orange, #fc7614);
+  height: 45px;
+  color: white;
+  border: none;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 1.867px;
+  margin-bottom: 10px;
+  transition: all 0.6s ease;
+}
+
+.submit:hover {
+  background-color: white;
+  color: #fc7614;
+}
+
+.orange {
+  background-color: #fc7614;
+  color: #fff;
+}
+
+.success {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 34px;
+  color: white;
+}
+
+.success img {
+  margin-bottom: 24px;
+}
+
+.success .score {
+  color: #fc7614;
+  background-color: #262e38;
+  padding: 5px 12px;
+  border-radius: 22.5px;
+  font-size: 14px;
+  margin-bottom: 29px;
+}
+
+.success h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.success p {
+  color: var(--Light-Grey, #969fad);
+  text-align: center;
+  font-family: Overpass;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22px; /* 157.143% */
+}

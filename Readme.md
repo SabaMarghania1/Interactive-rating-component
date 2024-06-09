@@ -11,4 +11,4 @@ See a "Thank you" message after submitting a rating
 Screenshot
 
 Links
-[Live Page]()
+[Live Page](https://interactive-rating-component-kappa-blond.vercel.app/)
